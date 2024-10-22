@@ -8,8 +8,7 @@
 </head>
 <body>
     @include("layouts.menu")
-    <h1>@yield("title")</h1>
-    <main>
+    <main class="container">
         @yield("content")
     </main>
 
